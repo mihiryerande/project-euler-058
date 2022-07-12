@@ -24,7 +24,7 @@
 from math import floor, sqrt
 
 
-def is_prime(x):
+def is_prime(x: int) -> bool:
     """
     Returns True iff `x` is prime.
 
@@ -45,7 +45,7 @@ def is_prime(x):
     return True
 
 
-def main(pct):
+def main(pct: int) -> int:
     """
     Returns the side length of the square number spiral
       for which the proportion of prime numbers along both diagonals
